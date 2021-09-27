@@ -9,7 +9,7 @@ import org.apache.spark.{SparkConf, SparkContext}
  * @author : Rison 2021/9/27 下午4:03
  *         2.通过车辆数最多的TopN卡扣
  */
-object TopNCarApplication {
+object TopNMonitorCarTotalApplication {
   def main(args: Array[String]): Unit = {
     val sparkConf = new SparkConf()
     sparkConf.setAppName(this.getClass.getSimpleName.stripSuffix("$"))
