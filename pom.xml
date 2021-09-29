@@ -45,6 +45,11 @@
             <artifactId>spark-streaming-kafka-0-10_${scala.binary.verison}</artifactId>
             <version>${spark.version}</version>
         </dependency>
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-all</artifactId>
+            <version>5.2.5</version>
+        </dependency>
     </dependencies>
 
 
